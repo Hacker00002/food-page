@@ -10,6 +10,10 @@
     font-family: 'Geo', sans-serif;
 }
 
+body{
+    background: #D9D9D9;
+}
+
 .conteiner{
     max-width: 1220px;
     width: 100%;
@@ -37,7 +41,7 @@
     position: fixed;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
-    padding: 20px 200px;
+    padding: 15px 200px;
 }
 
 .all-main{
@@ -339,3 +343,124 @@ span{
 .button4{
     color: #Fff;
 }
+
+.asian-text-item{
+    display: flex;
+    justify-content: center;
+}
+
+.asian-text{
+    font-family: 'Elsie';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    margin-top: 50px;
+    margin-bottom: 88px;
+    
+    color: #000000;
+}
+
+.asian-page{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.asian-pr{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+    width: 360px;
+}
+
+.asian-food{
+    background: linear-gradient(
+        to right,
+        #fff 0%,
+        #fff 50%,
+        #FE7606 50%,
+        #FE7606 100%
+    );
+    padding-bottom: 418px;
+}
+
+.all-asian{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    margin-top: -400px;
+    margin-bottom: 100px;
+}
+
+.all-burger{
+    display: flex;
+    justify-content: center;
+    /* gap: 90px; */
+}
+
+.bg-color{
+    font-family: 'Days One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+    background: #FE7606;
+    padding: 52px;
+}
+.d{
+    padding: 0 17px;
+}
+
+.footer{
+    background: #393939;
+
+    padding-top: 185px;
+    padding-bottom: 48px;
+}
+
+.footer-pr{
+    display: flex;
+    justify-content: center;
+}
+
+.button4{
+    font-family: 'Geo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+    
+    color: #000000;
+    text-decoration: none;
+    transition: all .7s ease;
+}
+
+.button4:hover{
+    color: #Fff;
+}
+
+.button4:active{
+    color: #FE7606;
+    transition: all .0s ease;
+}
+
