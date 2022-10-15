@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Geo', sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Geo', sans-serif;
+}
+
+.conteiner{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background: url(../img/bg-img.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding-bottom: 100px;
+    z-index: -1;
+}
+
+.all-header{
+    margin-bottom: 210px;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-link{
+    font-family: 'Geo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    transition: all .5s ease;
+}
+
+.nav-link:hover{
+    color: #FFD700;
+}
+
+.nav-link:active{
+    color: #FFFFFF;
+    transition: all .0s ease;
+}
+
+span{
+    color: #FFD700;
+}
+
+.main-text{
+    font-family: 'Frank Ruhl Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 129px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.main-pr{
+    font-family: 'Geo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+
+    width: 778px;
+
+    margin-bottom: 100px;
+}
+
+.button{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    width: 235px;
+    
+    color: #FFD700;
+
+    /* border-bottom: 1.5px solid #FFD700; */
+
+    transition: all .5s ease;
+}
+
+.button:hover{
+    color: #Fff;
+}
+
+.button:active{
+    color: #FFD700;
+    transition: all .0s ease;
+}
+
+.cards-all{
+    background-color: #D9D9D9;
+    width: 400px;
+}
+
+.cards-page{
+    width: 343px;
+
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 28px;
+    margin-top: 30px;
+    /* padding-bottom: 48px; */
+    
+    color: #000000;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 281px;
+}
+
+.all-cards-2{
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.buttons2{
+    display: flex;
+    justify-content: end;
+
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.button2{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+
+    text-align: center;
+    text-decoration: none;
+
+    
+    color: #FFFFFF;
+
+    background: #000000;
+
+    width: 92px;
+}
+
+.button2:hover{
+    background-color: #Fff;
+    color: #000000;
+    border: 1px solid #000000 transparent;
+}
+
+.food-section{
+    background: url(../img/bg-food.png);
+    z-index: -2;
+
+    padding-top: 129px;
+    padding-bottom: 160px;
+}
+
+.food-all{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.food-number{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #000;
+
+    margin-bottom: 30px;
+}
+
+.food-cards{
+    background: #fff;
+    width: 378px;
+    border-radius: 10px;
+
+    padding: 60px 60px 70px;
+
+    transition: all .7s ease;
+    
+    border: 1px solid #000;
+}
+
+.food-cards:hover{
+    border: 1px solid #000 transparent;
+    box-shadow: 0px 20px 20px 20px rgba(165, 165, 165, 0.25);
+    border-radius: 10.4827px;
+    cursor: pointer;
+}
+
+.food-text{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #000000;
+
+    margin-bottom: 20px;
+}
+
+.food-pr{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+    width: 263px;
+
+    margin-bottom: 22px;
+}
+
+.button3{
+    font-family: 'Encode Sans Semi Expanded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFD700;
+}
+
+.food-card-2{
+    background: rgba(9, 9, 11, 0.6);
+}
+
+.food-card-3{
+    background: #FE7606;
+}
+
+.number2{
+    color: #FE7606;
+}
+
+.text2{
+    color: #Fff;
+}
+
+.pr2{
+    color: #Fff;
+}
+
+.number3{
+    color: #fff;
+}
+
+.text3{
+    color: #Fff;
+}
+
+.pr3{
+    color: #Fff;
+}
+
+.button4{
+    color: #Fff;
+}
