@@ -27,6 +27,23 @@
     z-index: -1;
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-header{
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 200px;
+}
+
+.all-main{
+    padding-top: 300px;
+}
+
 .all-header{
     margin-bottom: 210px;
 }
@@ -39,8 +56,6 @@
 
 .nav-link{
     text-decoration: none;
-
-    margin-top: 30px;
 }
 
 .nav-link{
